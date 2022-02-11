@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-sclae=1"/>
+  <meta charset="utf-8"/>
+  <title> About this Site </title>
+  <link rel="icon" type="image/png" href="img/favicon-32x32.png"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <!-- loads Ubuntu sans normal, italics and bold  plus Roboto Mono-->
+  <link rel="stylesheet" type="text/css" href="css/style.production.css"/>
+</head>
+
+<body class="contact-page__body">
+
+  <header class="page-header">
+    <img src="img/mylogo.png" width="220" height="60" class="page-header__item" alt="Klaus Ideler's logo"/>
+    <nav class="page-header__item site-navigation" role="menubar">
+      <a href="index.html" role="menuitem" class="site-navigation__item"> Home </a>
+      <a href="about.html" role="menuitem" class="site-navigation__item"> About&nbsp;Me </a>
+      <a href="work.html" role="menuitem" class="site-navigation__item"> Work </a>
+      <a href="contact.html" role="menuitem" class="site-navigation__item  site-navigation__item--active"> Contact </a>
+    </nav>
+  </header>
+
+
+  <div class="communication">
+
+    <form id="contact-form" action="#" method="post" class="communication__feedback" >
+      <label class="feedback__label" for="contact-email"> E-mail: </label>
+      <input id="contact-email" type="email" required/>
+      <label class="feedback__label" for="contact-phone"> Telephone: </label>
+      <input id="contact-phone" type="tel"/>
+      <label class="feedback__label" for="contact-message"> Message </label>
+      <textarea id="contact-message" maxlength="240" required> </textarea>
+      <button type="submit" class="feedback__submit-button"> Send Message </button>
+    </form>
+
+
+    <address class="communication__contact-information">
+      Klaus Ideler <br/>
+      Ginsterweg 4 <br/>
+      37077 Göttingen <br/>
+      Deutschland <br/>
+      <a href="tel:01630369259"> Tel 0163 0369259 </a> <br/>
+      <a href="skype:live:klaus.ideler"> Skype live:klaus.ideler </a> <br/>
+      klaus.ideler@gmx.de <br/>
+      <a href="mailto:klaus.ideler@gmx.de"> Contact Me via e-mail</a>
+    </address>
+
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      Find me on
+    </p>
+    <div class="social-media">
+      <img src="img/github_icon_white.svg" class="social-media__icon" alt="Github icon"/>
+      <img src="img/linkedin_icon_color.svg" class="social-media__icon" alt="Linkedin icon"/>
+      <img src="img/xing_icon_color.svg" class="social-media__icon" alt="Xing icon"/>
+    </div>
+  </footer>
+
+  <script src="js/tota11y.min.js"> </script>
+</body>
+
+</html>
