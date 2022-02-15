@@ -1,0 +1,46 @@
+<svg version="1.1"
+     width="240" height="60"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="100%" height="100%" rx="10" ry="10" fill="#606060" />
+
+  <rect x="10" y="5" width="220" height="50" rx="2" ry="2" fill="000000" />
+
+<g class="my-name"
+  style="font-family: 'Courier New', monospace;
+  font-size: 27px;
+  stroke: none;
+  fill: rgba(0, 256, 0, 0);">
+  <text class="my-name__1st" x="21" y="29"> K </text>
+  <text class="my-name__2nd" x="37" y="29"> l </text>
+  <text class="my-name__3rd" x="53" y="29"> a </text>
+  <text class="my-name__4th" x="69" y="29"> u </text>
+  <text class="my-name__5th" x="85" y="29"> s </text>
+  <text class="my-name__6th" x="117" y="29"> I </text>
+  <text class="my-name__7th" x="133" y="29"> d </text>
+  <text class="my-name__8th" x="149" y="29"> e </text>
+  <text class="my-name__9th" x="165" y="29"> l </text>
+  <text class="my-name__10th" x="181" y="29"> e </text>
+  <text class="my-name__11th" x="197" y="29"> r </text>
+</g>
+
+<g class="my-profession"
+  style="font-family: 'Courier New', monospace;
+  font-size: 20px;
+  stroke: none;
+  fill: #00ff00;">
+  <text class="my-profession__1st" x="36" y="49"> W </text>
+  <text class="my-profession__2nd" x="49" y="49"> e </text>
+  <text class="my-profession__3rd" x="62" y="49"> b </text>
+  <text class="my-profession__4th" x="88" y="49"> D </text>
+  <text class="my-profession__5th" x="101" y="49"> e </text>
+  <text class="my-profession__6th" x="114" y="49"> v </text>
+  <text class="my-profession__7th" x="127" y="49"> e </text>
+  <text class="my-profession__8th" x="140" y="49"> l </text>
+  <text class="my-profession__9th" x="153" y="49"> o </text>
+  <text class="my-profession__10th" x="166" y="49"> p </text>
+  <text class="my-profession__11th" x="179" y="49"> e </text>
+  <text class="my-profession__12th" x="192" y="49"> r </text>
+</g>
+
+</svg>
