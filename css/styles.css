@@ -141,55 +141,6 @@ a.button, button {
 
 td, th {padding: 0px 10px;}
 
-.city-image {
-  margin-top: 50px;
-  text-align: right;
-}
-
-.attribution {font-size: 0.875em;}
-
-@keyframes color-change {
-  from {fill: #ff9900;}
-  to {fill: #ffff66;}
-}
-
-@keyframes plane-move {
-  from {transform: translateX(5000px);}
-  to {transform: translateX(-5000px);}
-}
-
-
-@keyframes cloud1-move {
-  from {transform: translateX(0px);}
-  to {transform: translateX(8000px);}
-}
-
-@keyframes cloud2-move {
-  from {transform: translateX(0px);}
-  to {transform: translateX(7700px);}
-}
-
-@keyframes cloud3-move {
-  from {transform: translateX(0px)}
-  to {transform: translateX(8000px)}
-}
-
-.sun {animation: color-change 8s linear infinite alternate;}
-
-.plane {animation: plane-move 20s linear infinite normal;}
-
-
-.cloud1 {
-  animation: cloud1-move 60s linear infinite normal;
-  animation-delay: 39s;
-}
-
-.cloud2 {
-  animation: cloud2-move 60s linear infinite normal;
-  animation-delay: 24s;
-}
-
-.cloud3 {animation: cloud3-move 60s linear infinite normal;}
 
 /* For index.html */
 
