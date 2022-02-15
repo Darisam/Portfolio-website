@@ -144,11 +144,6 @@ td, th {padding: 0px 10px;}
 
 /* For index.html */
 
-.profile{
-  max-width: 700px;
-  margin: 0 auto;
-}
-
 .profile__portrait {
   float: left;
   max-width: 250px;
