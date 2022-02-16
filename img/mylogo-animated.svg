@@ -5,119 +5,119 @@
   <style type="text/css">
 
     @keyframes opacity-change-n1 {
-    9.9% {fill: rgba(0, 256, 0, 0);}
-    10% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    9.9% {opacity: 0;}
+    10% {opacity: 1;}}
 
     @keyframes opacity-change-n2 {
-    12.9% {fill: rgba(0, 256, 0, 0);}
-    13% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    12.9% {opacity: 0;}
+    13% {opacity: 1;}}
 
     @keyframes opacity-change-n3 {
-    15.9% {fill: rgba(0, 256, 0, 0);}
-    16% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    15.9% {opacity: 0;}
+    16% {opacity: 1;} }
 
     @keyframes opacity-change-n4 {
-    18.9% {fill: rgba(0, 256, 0, 0);}
-    19% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    18.9% {opacity: 0;}
+    19% {opacity: 1;}}
 
     @keyframes opacity-change-n5 {
-    21.9% {fill: rgba(0, 256, 0, 0);}
-    22% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    21.9% {opacity: 0;}
+    22% {opacity: 1;}}
 
     @keyframes opacity-change-n6 {
-    24.9% {fill: rgba(0, 256, 0, 0);}
-    25% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    24.9% {opacity: 0;}
+    25% {opacity: 1;}}
 
     @keyframes opacity-change-n7 {
-    27.9% {fill: rgba(0, 256, 0, 0);}
-    28% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    27.9% {opacity: 0;}
+    28% {opacity: 1;}}
 
     @keyframes opacity-change-n8 {
-    30.9% {fill: rgba(0, 256, 0, 0);}
-    31% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    30.9% {opacity: 0;}
+    31% {opacity: 1;}}
 
     @keyframes opacity-change-n9 {
-    33.9% {fill: rgba(0, 256, 0, 0);}
-    34% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    33.9% {opacity: 0;}
+    34% {opacity: 1;}}
 
     @keyframes opacity-change-n10 {
-    36.9% {fill: rgba(0, 256, 0, 0);}
-    37% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    36.9% {opacity: 0;}
+    37% {opacity: 1;}}
 
     @keyframes opacity-change-n11 {
-    39.9% {fill: rgba(0, 256, 0, 0);}
-    40% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    39.9% {opacity: 0;}
+    40% {opacity: 1;}}
 
     @keyframes opacity-change-p1 {
-    45.9% {fill: rgba(0, 256, 0, 0);}
-    46% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    45.9% {opacity: 0;}
+    46% {opacity: 1;}}
 
     @keyframes opacity-change-p2 {
-    48.9% {fill: rgba(0, 256, 0, 0);}
-    49% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    48.9% {opacity: 0;}
+    49% {opacity: 1;}}
 
     @keyframes opacity-change-p3 {
-    51.9% {fill: rgba(0, 256, 0, 0);}
-    52% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    51.9% {opacity: 0;}
+    52% {opacity: 1;}}
 
     @keyframes opacity-change-p4 {
-    54.9% {fill: rgba(0, 256, 0, 0);}
-    55% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    54.9% {opacity: 0;}
+    55% {opacity: 1;}}
 
     @keyframes opacity-change-p5 {
-    57.9% {fill: rgba(0, 256, 0, 0);}
-    58% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    57.9% {opacity: 0;}
+    58% {opacity: 1;}}
 
     @keyframes opacity-change-p6 {
-    60.9% {fill: rgba(0, 256, 0, 0);}
-    61% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    60.9% {opacity: 0;}
+    61% {opacity: 1;}}
 
     @keyframes opacity-change-p7 {
-    63.9% {fill: rgba(0, 256, 0, 0);}
-    64% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    63.9% {opacity: 0;}
+    64% {opacity: 1;}}
 
     @keyframes opacity-change-p8 {
-    66.9% {fill: rgba(0, 256, 0, 0);}
-    67% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    66.9% {opacity: 0;}
+    67% {opacity: 1;}}
 
     @keyframes opacity-change-p9 {
-    69.9% {fill: rgba(0, 256, 0, 0);}
-    70% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    69.9% {opacity: 0;}
+    70% {opacity: 1;}}
 
     @keyframes opacity-change-p10 {
-    72.9% {fill: rgba(0, 256, 0, 0);}
-    73% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    72.9% {opacity: 0;}
+    73% {opacity: 1;}}
 
     @keyframes opacity-change-p11 {
-    75.9% {fill: rgba(0, 256, 0, 0);}
-    76% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    75.9% {opacity: 0;}
+    76% {opacity: 1;}}
 
     @keyframes opacity-change-p12 {
-    78.9% {fill: rgba(0, 256, 0, 0);}
-    79% {fill: rgba(0, 256, 0, 1);}
-    100% {fill: rgba(0, 256, 0, 1);}}
+    0% {opacity: 0;}
+    78.9% {opacity: 0;}
+    79% {opacity: 1;}}
 
     .my-name__1st {animation: opacity-change-n1 10s linear infinite;}
     .my-name__2nd {animation: opacity-change-n2 10s linear infinite;}
@@ -154,7 +154,8 @@
     style="font-family: 'Courier New', monospace;
     font-size: 27px;
     stroke: none;
-    fill: rgba(0,256,0,0);">
+    opacity: 1;
+    fill: #00ff00;">
     <text class="my-name__1st" x="21" y="29"> K </text>
     <text class="my-name__2nd" x="37" y="29"> l </text>
     <text class="my-name__3rd" x="53" y="29"> a </text>
@@ -172,7 +173,8 @@
     style="font-family: 'Courier New', monospace;
     font-size: 20px;
     stroke: none;
-    fill: rgba(0, 256, 0, 0);">
+    opacity: 1;
+    fill: #00ff00;">
     <text class="my-profession__1st" x="36" y="49"> W </text>
     <text class="my-profession__2nd" x="49" y="49"> e </text>
     <text class="my-profession__3rd" x="62" y="49"> b </text>
