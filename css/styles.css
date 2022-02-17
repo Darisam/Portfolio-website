@@ -1,18 +1,17 @@
 
 /* Broad, far-reaching stylings */
 
-* {box-sizing: border-box;}
+* { box-sizing: border-box; }
 
 :root {
   --background-color: #000000; /* black */
   --text-color: #87cefa; /* light blue */
-  --background-color-2: #ffa500; /*orange*/
+  --background-color-2: #ffa500; /* orange */
   --text-color-2: #000000; /* black, for text on background-color-2 */
   --grid-box-background-color: #162626; /* dark slate */
   --link-color: #00ff00; /* lime */
   --link-visited-color: #dda0dd; /* plum */
-  --link-active-color: #aa2266; /*violet*/
-
+  --link-active-color: #aa2266; /* violet */
   --primary-font: 'Ubuntu';
   --secondary-font: 'Roboto Mono';
   --font-weight-normal: 400;
@@ -48,13 +47,16 @@ h3 {
   font-weight: var(--font-weight-bold);
 }
 
-a {color: var(--link-color);}
-a:visited {color: var(--link-visited-color);}
-a:hover, a:focus {text-decoration: none;}
-a:active {color: var(--link-active-color);}
+a { color: var(--link-color); }
 
+a:visited { color: var(--link-visited-color); }
 
-/*More specific, but still affecting multiple pages*/
+a:hover,
+a:focus { text-decoration: none; }
+
+a:active { color: var(--link-active-color); }
+
+/* More specific, but still affecting multiple pages */
 
 .page-footer {
   clear: both;
@@ -64,7 +66,7 @@ a:active {color: var(--link-active-color);}
   margin-top: 20px;
 }
 
-.social-media__icon {margin: 0px 5px;}
+.social-media__icon { margin: 0 5px; }
 
 .page-header {
   display: flex;
@@ -73,18 +75,19 @@ a:active {color: var(--link-active-color);}
   margin-bottom: 30px;
 }
 
-.page-header__item {flex: 0 1 200px;}
+.page-header__item { flex: 0 1 200px; }
 
-.page-header__item:last-child {flex-grow: 1;}
+.page-header__item:last-child { flex-grow: 1; }
 
 .site-navigation {
   white-space: nowrap;
   text-align: right;
 }
 
-.site-navigation__item {margin: 0px 10px;}
+.site-navigation__item { margin: 0 10px; }
 
-a.button, button {
+a.button,
+button {
   display: inline-block;
   font-family: inherit;
   background-color: var(--background-color-2);
@@ -94,23 +97,29 @@ a.button, button {
   padding: 5px;
   margin: 3px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: opacity 0.2s;
 }
-.button:hover, .button:focus, button:hover, button:focus {
+
+.button:hover,
+.button:focus,
+button:hover,
+button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
 
-/* Highly specific stylings, often pseudo-ids, i.e. specifiers that target only one element.*/
+/* Highly specific stylings, often pseudo-ids, i.e. specifiers that target only one element. */
 
 /* For work.html */
 
 /* Fallback for grid */
+
 .projects__item {
   display: inline-block;
-  width: 33%
+  width: 33%;
 }
+
 /* End of fallback */
 
 @supports (display: grid) {
@@ -132,14 +141,15 @@ a.button, button {
 
 /* For about.html */
 
-.occupational-skills {margin-top:30px;}
+.occupational-skills { margin-top: 30px; }
 
 .occupational-skills__table {
   font-family: var(--secondary-font), monospace;
   margin: auto;
 }
 
-td, th {padding: 0px 10px;}
+td,
+th { padding: 0 10px; }
 
 /* For index.html */
 
@@ -152,7 +162,7 @@ td, th {padding: 0px 10px;}
 
 /* For contact.html */
 
-.contact-page__body{
+.contact-page__body {
   max-width: 620px;
   margin: auto;
 }
@@ -161,17 +171,17 @@ td, th {padding: 0px 10px;}
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 .communication__feedback {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
-.feedback__label {margin-top: 20px;}
+.feedback__label { margin-top: 20px; }
 
 .feedback__submit-button {
   flex-grow: 0;
@@ -179,11 +189,12 @@ td, th {padding: 0px 10px;}
   align-self: center;
 }
 
+/* Media Queries */
 
 @media all and (max-width: 500px) {
-  h1 {font-size: 1.375em;}
-  h2 {font-size: 1.125em;}
-  h3 {font-size: 1em;}
+  h1 { font-size: 1.375em; }
+  h2 { font-size: 1.125em; }
+  h3 { font-size: 1em; }
 
   .projects {
     grid-template-columns: 1fr;
