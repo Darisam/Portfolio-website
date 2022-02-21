@@ -10,8 +10,9 @@
   --text-color-2: #000000; /* black, for text on background-color-2 */
   --grid-box-background-color: #162626; /* dark slate */
   --link-color: #00ff00; /* lime */
-  --link-visited-color: #dda0dd; /* plum */
+  --link-visited-color: #dd80dd; /* plum */
   --link-active-color: #aa2266; /* violet */
+  --link-present-color: #a0a0a0; /* light gray */
   --primary-font: 'Ubuntu';
   --secondary-font: 'Roboto Mono';
   --font-weight-normal: 400;
@@ -50,6 +51,8 @@ h3 {
 a { color: var(--link-color); }
 
 a:visited { color: var(--link-visited-color); }
+
+a.site-navigation__item--active { color: var(--link-present-color); }
 
 a:hover,
 a:focus { text-decoration: none; }
